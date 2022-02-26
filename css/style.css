@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color1:rgb(66, 29, 4);
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  background-color: var(--color1);
+}
+
+body header h1 {
+  color: white;
+}
+
+body main {
+  overflow: hidden;
+  height: 93vh;
+  background-color: #cef7ec;
+}
+
+body main .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #411e0a;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #9c9c9c;
+  -webkit-box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.22);
+          box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.22);
+  position: absolute;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+body main .Score {
+  font-size: 2rem;
+}
+
+body main .gameStartBtn {
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  font-size: 3rem;
+}
+
+body main .settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 20px;
+  background-color: #494645;
+}
+
+body main .settings button {
+  width: 20px;
+  height: 20px;
+}
+
+body main .settings .__circleSize span {
+  color: white;
+}
+
+body footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  background-color: var(--color1);
+}
+/*# sourceMappingURL=style.css.map */

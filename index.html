@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テンプレート</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="icon" href="./img/favicon.ico" />
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+<body>
+    <header>
+        <h1>くりっくげーむ</h1>
+    </header>
+    <main>
+        <div class="Score">
+            <span>Score:</span>
+            <span class="__value">0</span>
+        </div>
+        <button class="gameStartBtn" onclick="gameStart()">ゲーム開始！</button>
+        <div onclick="circleMove()" class="circle">1</div>
+        <div class="settings">
+            <div class="__circleSize">
+                <span>サークルサイズ</span>
+                <button class="bigBtn" onclick="circleSizeBig()">↑</button>
+                <button class="smallBtn" onclick="circleSizeSmall()">↓</button>
+                <span>:</span>
+                <span class="__circleSize--value">50</span>
+            </div>
+        </div>
+    </main>
+    <footer>©Create by Chocomin</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
