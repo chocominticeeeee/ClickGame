@@ -10,7 +10,7 @@
 
 const clickSe = new Audio("sound/click.mp3");
 const niceSe = new Audio("sound/nice.mp3");
-const goodSe = new Audio("sound/good.mp3");
+const goodSe = new Audio("sound/Good.mp3");
 const excellentSe = new Audio("sound/excellent.mp3");
 const OMGSe = new Audio("sound/OMG.mp3");
 const GreatSe = new Audio("sound/Great.mp3");
